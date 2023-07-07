@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: red; 
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    margin-left: -115px;
+    /* padding-left: -10px; */
+    width: 120px;    
+}
+.menus{
+    display: flex;
+    font-size: large;
+}
+.item{
+    margin-right:15px ;
+    padding-right:15px ;
+    
+}
+.item:hover{
+  color: orange;
+  cursor: pointer;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 1px solid gray; */
+    background-image: url("../images/background.png"),
+    linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
+
+}
+.title{
+    font-size: 55px;
+    font-weight:bold;
+    color: white;
+}
+.description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.signup{
+    margin-top: -3px;
+    padding: 4px 4px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.me{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 55px;
+
+}
+.img2{
+    margin-top: 15px;
+    width: 400px;
+}
+
+.p1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+.p2{
+    margin: 7px 7px;
+    font-size: 20px;
+    
+}
+.p3{
+    margin: 7px 7px;
+    font-size: 20px;
+}
+.btn2{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
